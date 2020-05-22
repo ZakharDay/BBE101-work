@@ -1,0 +1,40 @@
+body {
+  background-image: url('Wikimedium-Post.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+h1, h2, h3, h4, p, ol, ul, blockquote {
+  width: 700px;
+  margin: auto;
+  color: red;
+}
+
+img {
+  width: 1020px;
+  margin: auto;
+  display: block;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 66px;
+}
+
+h1 + p {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 14px;
+}
