@@ -126,10 +126,21 @@ img + h4 {
 }
 
 blockquote {
+  position: relative;
   font-style: italic;
   font-size: 22px;
   line-height: 34px;
   margin-top: 29px;
+}
+
+blockquote::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: black;
+  margin-left: -20px;
 }
 
 blockquote + h2 {
