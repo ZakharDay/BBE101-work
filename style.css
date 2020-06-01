@@ -161,3 +161,11 @@ li {
   line-height: 34px;
   margin-top: 17px;
 }
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
