@@ -5,6 +5,10 @@ nav {
   margin: 50px;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav ul {
   margin: 0;
 }
