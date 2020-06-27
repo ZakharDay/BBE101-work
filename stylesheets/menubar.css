@@ -21,6 +21,7 @@ menu a {
   line-height: 18px;
   color: rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 menu a:hover {
