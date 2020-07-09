@@ -1,0 +1,24 @@
+body.landing {
+  background-image: url('../images/2560.jpg');
+  background-position: top center;
+}
+
+.contentWrapper {}
+
+#section-1-image {
+  width: 1159px;
+  height: 664px;
+  background-image: url('../images/desktop-section-1-large.jpg');
+}
+
+#section-2-image {
+  width: 649px;
+  height: 674px;
+  background-image: url('../images/desktop-section-2-large.jpg');
+}
+
+#section-3-image {
+  width: 1392px;
+  height: 883px;
+  background-image: url('../images/desktop-section-3-large.jpg');
+}

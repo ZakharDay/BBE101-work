@@ -28,6 +28,12 @@ menu a:hover {
   color: rgba(0, 0, 0, 0.4);
 }
 
+menu a:first-child {
+  width: 180px;
+  height: 16px;
+  background-image: url('../images/logo.svg');
+}
+
 menu a.current {
   color: rgba(0, 0, 0, 0.6);
 }
