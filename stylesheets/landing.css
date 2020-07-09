@@ -1,6 +1,7 @@
 body.landing {
   background-image: url('../images/2560.jpg');
   background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .contentWrapper {}
@@ -21,4 +22,28 @@ body.landing {
   width: 1392px;
   height: 883px;
   background-image: url('../images/desktop-section-3-large.jpg');
+}
+
+@media (max-width: 1920px) {
+  body.landing {
+    background-image: url('../images/1920.jpg');
+  }
+}
+
+@media (max-width: 1680px) {
+  body.landing {
+    background-image: url('../images/1680.jpg');
+  }
+}
+
+@media (max-width: 1440px) {
+  body.landing {
+    background-image: url('../images/1440.jpg');
+  }
+}
+
+@media (max-width: 1280px) {
+  body.landing {
+    background-image: url('../images/1280.jpg');
+  }
 }
