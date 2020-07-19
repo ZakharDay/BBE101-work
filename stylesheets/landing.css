@@ -1,18 +1,73 @@
 body.landing {
   background-image: url('../images/2560.jpg');
-  background-position: top center;
+  background-position: center -50px;
   background-repeat: no-repeat;
 }
 
-.contentWrapper {}
+.contentWrapper {
+  width: 1920px;
+  height: 850px;
+  margin: 0 auto;
+}
+
+.contentWrapper h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.contentWrapper p {
+  margin-top: 22px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.textContainer {
+  width: 582px;
+}
+
+#section-1 {
+  position: relative;
+}
+
+#section-1 .textContainer {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+}
 
 #section-1-image {
+  position: absolute;
+  top: 147px;
+  left: 729px;
   width: 1159px;
   height: 664px;
   background-image: url('../images/desktop-section-1-large.jpg');
 }
 
+#section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-2 .contentContainer {
+  position: relative;
+  width: 1327px;
+  height: 681px;
+}
+
+#section-2 .contentContainer .textContainer {
+  position: absolute;
+  top: 58px;
+  right: 0;
+}
+
 #section-2-image {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 649px;
   height: 674px;
   background-image: url('../images/desktop-section-2-large.jpg');
@@ -22,6 +77,46 @@ body.landing {
   width: 1392px;
   height: 883px;
   background-image: url('../images/desktop-section-3-large.jpg');
+}
+
+#section-4 {
+  padding-top: 130px;
+}
+
+#section-4 .textContainer {
+  width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#section-4 .buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+#section-4 .primary,
+#section-4 .secondary {
+  display: block;
+  height: 52px;
+  padding: 0 34px;
+  line-height: 52px;
+  border-radius: 5px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 16px;
+}
+
+#section-4 .primary {
+  font-weight: bold;
+  color: white;
+  background: black;
+}
+
+#section-4 .secondary {
+  color: #666666;
+  background: white;
+  border: 1px solid #CCCCCC;
+  margin-right: 20px;
 }
 
 @media (max-width: 1920px) {

@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 60px;
+  margin: -60px auto 0;
+  padding: 0 40px;
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(102, 102, 102, 0.8);
+}
