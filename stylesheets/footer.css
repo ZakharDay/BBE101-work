@@ -17,3 +17,12 @@ footer {
     padding: 0 20px;
   }
 }
+
+@media (max-width: 1250px) {
+  footer {
+    height: 50px;
+    margin: -50px auto 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
