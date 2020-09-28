@@ -3,7 +3,7 @@ body.landing {
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  background-image: url('../images/2560.jpg');
+  background-image: url("../images/2560.jpg");
   background-position: center -50px;
   background-repeat: no-repeat;
 }
@@ -18,14 +18,14 @@ body.landing {
 }
 
 .contentWrapper h2 {
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: "PT Sans Caption", sans-serif;
   font-size: 36px;
   line-height: 46px;
 }
 
 .contentWrapper p {
   margin-top: 22px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 26px;
   line-height: 38px;
 }
@@ -50,7 +50,7 @@ body.landing {
   left: 729px;
   width: 1159px;
   height: 664px;
-  background-image: url('../images/desktop-section-1-large.jpg');
+  background-image: url("../images/desktop-section-1-large.jpg");
 }
 
 #section-2 {
@@ -77,11 +77,11 @@ body.landing {
   left: 0;
   width: 649px;
   height: 674px;
-  background-image: url('../images/desktop-section-2-large.jpg');
+  background-image: url("../images/desktop-section-2-large.jpg");
 }
 
 #section-3 {
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
 }
 
 #section-3 .textContainer {
@@ -96,7 +96,7 @@ body.landing {
   left: 830px;
   width: 1392px;
   height: 883px;
-  background-image: url('../images/desktop-section-3-large.jpg');
+  background-image: url("../images/desktop-section-3-large.jpg");
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
@@ -124,7 +124,7 @@ body.landing {
   padding: 0 34px;
   line-height: 52px;
   border-radius: 5px;
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: "PT Sans Caption", sans-serif;
   font-size: 16px;
   text-decoration: none;
 }
@@ -138,7 +138,7 @@ body.landing {
 #section-4 .secondary {
   color: #666666;
   background: white;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   margin-right: 20px;
 }
 
@@ -155,19 +155,19 @@ body.landing {
 
 @media (max-width: 1920px) {
   body.landing {
-    background-image: url('../images/1920.jpg');
+    background-image: url("../images/1920.jpg");
   }
 }
 
 @media (max-width: 1680px) {
   body.landing {
-    background-image: url('../images/1680.jpg');
+    background-image: url("../images/1680.jpg");
   }
 }
 
 @media (max-width: 1440px) {
   body.landing {
-    background-image: url('../images/1440.jpg');
+    background-image: url("../images/1440.jpg");
   }
 
   .contentWrapper {
@@ -220,13 +220,13 @@ body.landing {
 
 @media (max-width: 1280px) {
   body.landing {
-    background-image: url('../images/1280.jpg');
+    background-image: url("../images/1280.jpg");
   }
 }
 
 @media (max-width: 1250px) {
   body.landing {
-    background-image: url('../images/1194.jpg');
+    background-image: url("../images/1194.jpg");
   }
 
   .contentWrapper {
@@ -294,7 +294,7 @@ body.landing {
 
 @media (max-width: 1024px) {
   body.landing {
-    background-image: url('../images/1024.jpg');
+    background-image: url("../images/1024.jpg");
   }
 }
 
@@ -370,5 +370,92 @@ body.landing {
 
   #section-4 {
     height: 1024px;
+  }
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  .contentWrapper h2 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .contentWrapper p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .textContainer {
+    width: 300px;
+  }
+
+  #section-1 .textContainer,
+  #section-2 .textContainer,
+  #section-3 .textContainer {
+    top: 100px;
+    left: calc((100vw - 300px) / 2);
+  }
+
+  #section-4 .textContainer {
+    top: 100px;
+    left: calc((100vw - 300px) / 2);
+    width: 300px;
+  }
+
+  #section-1 {
+    height: 602px;
+  }
+
+  #section-1-image {
+    top: 258px;
+    left: 10px;
+    width: 600px;
+    height: 344px;
+  }
+
+  #section-2 {
+    height: 613px;
+  }
+
+  #section-2-image {
+    top: 301px;
+    left: calc((100vw - 300px) / 2);
+    width: 300px;
+    height: 312px;
+  }
+
+  #section-3 {
+    height: 662px;
+  }
+
+  #section-3-image {
+    top: 293px;
+    left: 10px;
+    width: 718px;
+    height: 456px;
+  }
+
+  #section-4 {
+    height: 632px;
+  }
+
+  #section-4 .buttonContainer {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #section-4 .primary,
+  #section-4 .secondary {
+    height: 40px;
+    line-height: 40px;
+  }
+
+  #section-4 .primary {
+    margin-bottom: 10px;
+  }
+
+  #section-4 .secondary {
+    margin-right: 0;
   }
 }
