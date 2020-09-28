@@ -297,3 +297,78 @@ body.landing {
     background-image: url('../images/1024.jpg');
   }
 }
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  body.landing {
+    background: none;
+  }
+
+  .contentWrapper h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .contentWrapper p {
+    margin-top: 22px;
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .textContainer {
+    width: 580px;
+  }
+
+  #section-1 .textContainer,
+  #section-2 .textContainer,
+  #section-3 .textContainer {
+    top: 160px;
+    left: calc((100vw - 580px) / 2);
+  }
+
+  #section-4 .textContainer {
+    top: 240px;
+    left: calc((100vw - 586px) / 2);
+    width: 586px;
+  }
+
+  #section-1 {
+    height: 1154px;
+  }
+
+  #section-1-image {
+    top: 489px;
+    left: 40px;
+    width: 984px;
+    height: 665px;
+  }
+
+  #section-2 {
+    height: 1222px;
+  }
+
+  #section-2 .contentContainer {
+    position: static;
+  }
+
+  #section-2-image {
+    top: 546px;
+    left: calc((100vw - 652px) / 2);
+    width: 651px;
+    height: 676px;
+  }
+
+  #section-3 {
+    height: 1285px;
+  }
+
+  #section-3-image {
+    top: 575px;
+    left: 40px;
+    width: 1393px;
+    height: 883px;
+  }
+
+  #section-4 {
+    height: 1024px;
+  }
+}
